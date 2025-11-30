@@ -177,4 +177,5 @@ const Rankings = () => {
                         ? 'bg-success-100 text-success-800' 
                         : 'bg-red-100 text-red-800'
                     }`}>
-                      {restaurant.isOpen ? '🟢 Aberto' : '
+
+                      {restaurant.isOpen ? '🟢 Aberto' : '🔴 Fechado'}
